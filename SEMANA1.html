@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Información</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .content {
+            display: none;
+            padding: 20px;
+        }
+        .active {
+            display: block;
+        }
+         
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        .content {
+            display: none;
+            padding: 20px;
+            background: white;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .active {
+            display: block;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>GERENCIA DE SISTEMAS</h1>
+    <nav>
+        <button onclick="showContent('CARATULA')">CARATULA</button>
+        <button onclick="showContent('SEMANA1')">SEMANA 1</button>
+        <button onclick="showContent('SEMANA2')">SEMANA 2</button>
+    </nav>
+
+    <div id="CARATULA" class="content active">
+    </div>
+    <img src="ingFacu.jpg">
+    <div id="SEMANA1" class="content">
+        <h2>Bienvenido a la información sobre Sistemas de Información</h2>
+        <p>1. La Información en la Empresa</p>
+            <br>La información es un recurso estratégico para la toma de decisiones dentro de una empresa. Su correcta gestión permite mejorar la eficiencia, competitividad y adaptación al entorno. Las empresas dependen de la información para coordinar operaciones, analizar tendencias, optimizar procesos y mejorar la experiencia del cliente.<br>
+            
+            <br>2. Sistemas de información<br>
+            <br>Un sistema de información (SI) es un conjunto de componentes interrelacionados que recopilan, procesan, almacenan y distribuyen información para apoyar la toma de decisiones, la coordinación, el control y el análisis en una organización.<br>
+            
+            <br>3. Tipos de Sistemas de Información<br>
+            <br>Los sistemas de información pueden clasificarse según su función y nivel dentro de la organización:<br>
+            
+            <br>Sistemas de Procesamiento de Transacciones (TPS): Manejan operaciones diarias como ventas, pagos y nóminas.<br>
+            
+            <br>Sistemas de Información Gerencial (MIS): Proporcionan informes periódicos para la gestión operativa .Proporcionan informes periódicos para la gestión operativa.<br>
+            
+            <br>Sistemas de Soporte a Decisiones (DSS): Ayudan en la toma de decisionesAyudan en la toma de decisiones basadas en datos y modelos analíticos.<br>
+            
+            <br>Sistemas de Información Ejecutiva (EIS): Brindan información clave a la alta dirección medianteBrindan información clave a la alta dirección mediante resúmenes y análisis estratégicos.<br>
+            
+            <br>Sistemas ERP (Planificación de Recursos Empresariales): Integran procesos centrales de negocioIntegran procesos centrales de negocio como contabilidad, producción y logística.<br>
+            
+            <br>Sistemas CRM (Gestión de Relaciones con Clientes):Customer Relationship Management ) : Gestionan las relaciones con los clientes .Gestionan las relaciones con los clientes.<br>
+            
+            <br>istemas de Gestión del Conocimiento: Facilitan la creación , almacenamiento y distribución del conocimiento organizFacilitar la creación, almacenamiento y distribución del conocimiento organizacional.<br>
+            
+            <br> 4. Componentes de los Sistemas de Información<br>
+            <br>Un sistema de información está compuesto por:<br>
+            
+            <br>Hardware: Equipos físicos como servidores , computadoras y dispositivos móviles .Equipos físicos como servidores, computadoras y dispositivos móviles.<br>
+            
+            <br>Software: Programas y aplicaciones que procesan la información .Programas y aplicaciones que procesan la información.<br>
+            
+            <br>Datos: La materia prima del sistema , estructurada en bases de datos .La materia prima del sistema, estructurada en bases de datos.<br>
+            
+            <br>Personas: Usuarios que interactúanUsuarios que interactúan con el sistema, desde empleados hasta clientes.<br>
+            
+            <br>Procesos: Procedimientos yProcedimientos y reglas para el uso eficiente del sistema.<br>
+            
+            <br>Redes: InfraestructuraInfraestructura de comunicación que permite la conectividad entre sistemas y usuarios..</p>
+    </div>
+    <div id="SEMANA2" class="content">
+        <h2>Computación en la nube</h2>
+        <p>  
+            <br>La computación en la nube (Cloud Computing) es un modelo que permite el acceso a recursos informáticos (servidores, almacenamiento, bases de datos, redes, software, etc.) a través de internet, sin necesidad de poseer una infraestructura física propia.<br>  
+            
+            <br>Características principales:<br>  
+            <br>Acceso bajo demanda: Los recursos se pueden utilizar cuando se necesiten.<br>  
+            <br>Escalabilidad: Permite aumentar o disminuir recursos según la demanda.<br>  
+            <br>Pago por uso: Se paga solo por los recursos utilizados.<br>  
+            <br>Ubicación remota: No es necesario tener los servidores en la empresa.<br>  
+            <br>Seguridad y respaldo: Los proveedores garantizan alta disponibilidad y protección de datos.<br>  
+            
+            <br>Tipos de nube:<br>  
+            <br>Nube Pública: Infraestructura compartida y administrada por proveedores externos (AWS, Azure, Google Cloud).<br>  
+            <br>Nube Privada: Infraestructura dedicada a una sola organización.<br>  
+            <br>Nube Híbrida: Combinación de nube pública y privada.<br>  
+            
+            <h2>Modelos de negocio en la nube</h2>  
+            <br>Los modelos de negocio en la nube dependen de cómo se ofrecen los servicios y el valor que generan para las empresas. Se pueden clasificar en:<br>  
+            
+            <br>Software como Servicio (SaaS - Software como Servicio):<br>  
+            <br>Aplicaciones accesibles a través de internet sin instalación.<br>  
+            <br>Ejemplos: Gmail, Microsoft 365, Salesforce, Dropbox.<br>  
+            <br>Modelo de negocio: Suscripción o pago por uso.<br>  
+            
+            <br>Plataforma como Servicio (PaaS - Plataforma como Servicio):<br>  
+            <br>Entorno de desarrollo en la nube para crear aplicaciones sin gestionar la infraestructura.<br>  
+            <br>Ejemplos: Google App Engine, Microsoft Azure App Services.<br>  
+            <br>Modelo de negocio: Pago por uso o suscripción para desarrolladores.<br>  
+            
+            <br>Infraestructura como Servicio (IaaS - Infraestructura como Servicio):<br>  
+            <br>Recursos como servidores, almacenamiento y redes proporcionadas por internet.<br>  
+            <br>Ejemplos: Amazon EC2, Google Compute Engine, Microsoft Azure Virtual Machines.<br>  
+            <br>Modelo de negocio: Pago por consumo de recursos.<br>  
+            
+            <br>Función como Servicio (FaaS - Función como Servicio):<br>  
+            <br>Ejecución de código sin necesidad de gestionar servidores (arquitectura serverless).<br>  
+            <br>Ejemplos: AWS Lambda, Google Cloud Functions.<br>  
+            <br>Modelo de negocio: Pago por ejecución de funciones.<br>  </p>
+    </div>
+
+    <script>
+        function showContent(section) {
+            document.querySelectorAll('.content').forEach(div => div.classList.remove('active'));
+            document.getElementById(section).classList.add('active');
+        }
+    </script>
+</body>
+</html>
